@@ -39,8 +39,8 @@ aws-terraform-flask-cicd/
 │       └── deploy.yml          # Automated CI/CD pipeline configuration
 ├── terraform/                  # Infrastructure as Code (IaC) files
 │   ├── main.tf                 # AWS Provider & EC2/VPC resources
-│   ├── variables.tf            # Terraform variables
-│   └── outputs.tf              # Outputs (like EC2 Public IP)
+│             
+│          
 ├── app.py                      # Main Python Flask web application
 ├── Dockerfile                  # Instructions to containerize the Flask app
 ├── requirements.txt            # Python dependency packages
